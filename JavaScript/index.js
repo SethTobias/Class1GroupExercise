@@ -8,3 +8,11 @@
 // 3. Now make sure to push each object made in Ques2. into an array.
 //    Now use the map method to loop through the objects and return an array of names in the group to the console.
 // 4. Now use the filter method to check if there is anyone that is younger than 20 and make sure to log/display each person's name 
+
+let myOrderedList = document.querySelector(`[data-orderedList]`);
+let myArray = [`Thandile`, `Darren`, `Seth`, `CJ`];
+for (members of myArray){
+    console.log(members);
+}
+myOrderedList.innerHTML = `<li>` + myArray.join(`</li><li>`); + `</li>`;
+
